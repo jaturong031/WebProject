@@ -1,0 +1,111 @@
+﻿ul.tabs
+{
+    padding: 7px 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+	margin-left:10px;
+}
+        
+ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:3px; /*distance between tabs*/
+}
+        
+ul.tabs li a
+{
+    font: normal 12px Verdana;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    padding: 7px 7px;
+    border: 1px solid #CCC;
+    border-bottom-color:#B7B7B7;
+    color: #000;
+    background: #F0F0F0 url(tabbg12.gif) 0 0 repeat-x;
+    border-radius: 2px 2px 0 0;
+    outline:none;
+}
+        
+ul.tabs li a:visited
+{
+    color: #000;
+}
+        
+ul.tabs li a:hover
+{
+    border: 1px solid #999999;
+    background:#F0F0F0 url(tabbg.gif) 0 -36px repeat-x;
+}
+        
+ul.tabs li.selected a
+{
+    /*selected tab style */
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+	color:#fff;
+    background:red;
+    border: 1px solid red;/*B7B7B7*/
+    border-bottom-color: red;
+}
+        
+        
+ul.tabs li.selected a:hover
+{
+    /*selected tab style */
+    text-decoration: none;
+}
+        
+div.tabcontent
+{
+    display: block;
+}
+
+div.tabcontents/*ควบคุมเมนูกล่องข่าว*/
+{
+	/*border-bottom:1px solid  #CCCCCC;*/
+    border-top: 3px solid red; padding: 1px;
+    background-color: #FFF;
+    border-radius: 0 2px 2px 2px;
+	height:299px;
+	width:580px;
+	margin-left:10px; 
+	
+	
+	
+}
+#new-line{/*control ข่าวข้างใน*/
+line-height:25px;
+font-size:13px;
+font-family:Tahoma, Geneva, sans-serif;
+list-style: url(../images/dot.png);
+margin-left:15px;
+height:380px;/*ความสูงของกล่องข่าว*/
+}
+#new-line li a{
+text-decoration:none;
+color: #666;
+}
+#new-line li a:hover{
+text-decoration: underline;
+color: #000000;
+}
+#all-news{
+	float:left;
+	text-align:right;
+	width:580px;
+	height:10px;
+	font-size:13px;
+	margin-top:-5px;
+	position:relative;
+	color:#CC0000;
+	font-weight:bold;
+}
+#all-news a{
+text-decoration:none;
+color:#FF0000;
+}
