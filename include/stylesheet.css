@@ -1,0 +1,377 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*------------------------------------HEADER------------------------------*/
+header{
+	display:block;
+	/*background-color:#999;*/
+	box-shadow: inset 10px 0px 60px 3px rgba(0,0,0,0.1);
+	height:100px;
+}
+#block-head{
+	margin:0 auto;
+	width:1024px;
+	/*background-color:#00CC00;*/
+	/*border:1px solid #C00;*/
+	height:100px;
+}
+.head-logo{
+	padding:5px;
+	float:left;
+}
+.head-txtskru{
+	line-height:30px;
+	margin-top:24px;
+	margin-left:10px;
+    float:left;
+	width:800px;
+}
+.lang{
+	margin-top:33px;
+	float:left;
+}
+/*-------------------------------------------MENU------------------------------------*/
+nav{
+	display:block;
+	background-color: #2760B4;
+	height:35px;
+}
+.block-menu{
+	width:1024px;
+	margin: 0 auto;
+}
+nav ul{
+	width:auto;
+	line-height:20px;
+}
+nav ul li{
+	display: inline-block;
+	margin-left:0px;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	font-weight:bold;
+	padding:5px 10px 5px 5px;
+	line-height:30px;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+nav ul li a:hover{
+	border-bottom:3px  double #FFF;
+}
+
+/*---------------------------------- คุมส่วนเนื้อหาทั้งหมด ---------------------------*/
+article{
+	display:block;
+	background-color: #E9E9E9;
+	/*F7F7F7,,E1E1E1*/
+	height:auto;
+}
+/*-----------------------------------slide---------------------------------------------------*/
+#block-slide{
+	margin: 0 auto;
+	width:1024px;
+	height:auto;
+}
+/*----------------------------------------------- content------------------------------------*/
+#block-content{
+	margin: 0 auto;
+	width:1024px;
+	height:1350px;/*1300*/
+	background-color: #FFF;
+	padding:0px 0 0 0px;
+}
+/*-----------------------------------------tab ข่าว-----------------------*/
+#block-content .block-news{
+	float:left;
+	width:600px;
+	height:auto;
+	margin: 0 auto;  font: 0.85em arial;
+	padding:14px 0 0 5px;
+	
+}
+
+/*--------------------------------------ระบบสารสนเทศ----------------------------*/
+#block-system{
+float:left;
+width:580px;
+height:auto;
+border-top:0px solid #E6E6E6;
+border-bottom:0px solid #2760B4;/*#FF0000*/
+font-size:16px;
+line-height:25px;
+padding:0px 0px 0px 0px;
+margin-top:3px;
+}
+
+#block-system-other{
+	width:600px;
+	height:auto;
+	color: #666;
+	font-weight:bold;
+}
+#block-system-other ul{
+	width:auto;
+	height:auto;
+	font-size:13px;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:1px;
+	list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+#block-system-other ul li{
+    display: inline-table;
+	width:90px;
+	height:40px;
+	line-height:30px;
+	border-bottom:dotted 1px #EEE;
+	
+}
+#block-system-other ul li a{
+text-decoration:none;
+color:#666;
+}
+/*-------------------- block link --------------------------*/
+#block-link{
+	float:left;
+	width:600px;
+	height:254px;
+}
+#block-link ul{
+    width:auto;
+	height:auto;
+	font-size:13px;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:15px;
+	list-style-type: none;
+   padding: 15px 0px 10px 0px;	
+}
+#block-link ul li{
+    display: inline-table;
+	width:162px;
+	height:90px;
+	padding: 10px 10px 0px 10px;
+	margin-right:5px;
+	background: #FCFCFC; /*#F9F9F9; /*#FF6;*/
+	box-shadow: inset 0px 5px 80px 10px rgba(0,0,0,0.1);
+	border-right:5px   #CC0000 solid; /*#CC0000 */
+	line-height:15px;
+}
+.h-title{
+	color:#F00;
+	font-size:15px;
+	font-weight:bold;
+	color:#333;
+}
+.title-low{
+	font-size:12px;
+	color:#999;
+}
+
+/*----------------------block banner----------------*/
+
+#block-banner{
+	float:left;
+	width:394px;
+	height:230px;
+	padding:10px 2px 0 10px;
+	margin-left:5px;
+}
+#block-banner img{
+	margin-top:5px;
+	
+	border:1px solid #F4F4F4;
+}
+
+/*-----------------------------------------block lifestle-----------------------*/
+.block-Lifestyle{
+	float:left;
+	width:394px;/*394*/
+	height:auto;
+	padding:10px 2px 0 10px;
+	margin-left:5px;
+	
+}
+.block-Lifestyle ul{
+	width:auto;
+	height:auto;
+	font-size:13px;
+	font-family: "Times New Roman", Times, serif;
+	color: #666;
+	margin-left:0px;
+	list-style-type: none;
+    padding: 5px 0px 0px 0px;
+}
+.block-Lifestyle ul li{
+    display: inline-table;
+	width:160px;/**/
+	height:auto;
+	padding: 5px 5px 5px 5px;
+	margin-right:5px;
+	line-height:15px;
+
+}
+.Lifestyle-head{
+    font-size:13px;
+	font-weight:bold;
+	color: #000;/*#488AC7;  */
+	font-family:Tahoma;
+}
+.block-Lifestyle img{
+	margin-top:5px;
+	width:178px;
+	height:110px;
+}
+.title-lifestyle{
+	background-color:#F00;
+	 height:30px; 
+	 margin-top:-3px; 
+	 padding:3px 3px 3px 3px;
+	  color:#FFF;
+}
+
+
+/*-------------------------------- ภาพกิจกรรม-------------------------------------------*/
+#box5{
+float:left;
+width:1024px;
+height:40px;
+border-top:5px solid  #EFEFEF;
+margin-top:5px;
+line-height:50px;
+font-size:16px;
+font-weight:bold;
+}
+#box5 a{
+	text-decoration:none;
+	color:#FF0000;
+}
+
+
+#box6{
+float:left;
+width:1024px;
+height:auto;
+border:0px solid #E6E6E6;
+border-top:0px solid #F00;/*/*/
+font-size:13px;
+}
+.columMain{
+	float:left;
+	width:480px;
+	height:auto;
+}
+.columMain ul{
+	list-style:none;
+	display: inline-table;
+	margin-top:-5px;
+}
+.columMain ul li{
+	    margin-top:13px;
+		display: inline-table;
+		padding:10px 10px 10px 15px;
+		width:450px;
+		height:auto;
+}
+.columSub{
+	float:left;
+	width:540px;
+	height:auto;
+}
+.columSub ul{
+	width:auto;
+	height:auto;
+	font-size:13px;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:5px;
+	list-style-type: none;
+}
+.columSub ul li{
+	display: inline-table;
+	width:150px;
+	height:50px;
+	padding: 20px 10px 20px 6px;
+	margin-right:6px;
+	line-height:15px;
+
+}
+.title-album{
+	background-color: #F00;
+	 height:auto; 
+	 margin-top:-5px; 
+	 padding:5px 5px 5px 5px;
+	  color: #FFF;
+}
+.title-album a{
+	text-decoration:none;
+	color:#FFF;
+}
+.title-album a:hover{
+	text-decoration:underline;
+}
+
+.top-title a{
+	text-decoration:none;
+	color: #333;
+}
+
+.top-title a:hover{
+	text-decoration:underline;
+	color:#333;
+}
+#box7{
+float:left;
+width:1024px;
+height:auto;
+border-top:6px solid #EFEFEF;/*/*/
+font-size:13px;
+}
+#Leftconner{
+	font-size:16px; color: #333; 
+	font-weight:bold;
+	/* border-bottom:3px solid  #F00; */
+	 height:33px; 
+	 line-height:35px; 
+	 margin-left:15px; 
+	 margin-top:10px;
+	 
+}
+#LeftconnerMIS{
+	font-size:16px; color: #333; 
+	font-weight:bold;
+	 border-bottom:3px solid  #F00; 
+	 height:33px; 
+	 line-height:35px; 
+	 margin-left:3px; 
+	 margin-top:10px;
+}
+	
+
+/*-------------------------------------จุดจบของส่วนคลุมเนื้อหาทั้งหมด-----------------*/
+
+
+
+/*-----------------------------------------------footer--------------------------------------*/
+footer{
+	position: absolute;
+	width:100%;
+	height:59px;
+	left:0;
+	background-color: #CCCCCC;  /*E8E8E8*/
+	line-height:20px;
+	padding:8px 0px 0px 0px;
+}
+footer .footer-left{
+	margin-left:auto;
+	margin-right:auto;
+	width:1024px;
+	height:100px;
+	font-size:13px;
+	/*border-left:4px solid #C00;*/
+	padding-left:5px;
+}
+
+/*-------------------zone news----------------------------*/
